@@ -23,8 +23,8 @@ dependencies:
   - graphviz
   - jupyterlab=0.35
   - nodejs
+  - siphon
   - pip:
     - kubernetes
     - graphviz
     - git+https://github.com/dask/dask-kubernetes.git
-    - siphon
