@@ -27,4 +27,4 @@ dependencies:
     - kubernetes
     - graphviz
     - git+https://github.com/dask/dask-kubernetes.git
-    - git+https://github.com/pydata/xarray.git
+    - siphon
