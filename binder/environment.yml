@@ -33,11 +33,11 @@ dependencies:
   - jupyterlab=0.35
   - ipywidgets
   - ipyleaflet
-  - dask-kubernetes
   - siphon
   - gsw
   - pip:
     - graphviz
+    - dask-kubernetes
     - git+https://github.com/xgcm/xgcm.git
     - git+https://github.com/pydata/xarray.git
     - git+https://github.com/zarr-developers/zarr.git
