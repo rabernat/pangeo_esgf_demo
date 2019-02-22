@@ -20,7 +20,7 @@ dependencies:
   - pyviz/label/earthsim::panel
   - geoviews
   - hvplot
-  - rasterio
+  - rasterio>=1.0
   - geoviews
   - datashader
   - netcdf4

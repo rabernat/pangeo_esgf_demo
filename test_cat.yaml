@@ -1,0 +1,14 @@
+plugins:
+  source:
+    - module: intake_xarray
+sources:
+  foo:
+    description: test
+    driver: netcdf
+    args:
+      urlpath:
+        - 'http://aims3.llnl.gov/thredds/dodsC/css03_data/CMIP6/CMIP/NASA-GISS/GISS-E2-1-G/historical/r1i1p1f1/Amon/tas/gn/v20180827/tas_Amon_GISS-E2-1-G_historical_r1i1p1f1_gn_195101-200012.nc'
+        - 'http://aims3.llnl.gov/thredds/dodsC/css03_data/CMIP6/CMIP/NASA-GISS/GISS-E2-1-G/historical/r1i1p1f1/Amon/tas/gn/v20180827/tas_Amon_GISS-E2-1-G_historical_r1i1p1f1_gn_200101-201412.nc'
+      engine: netcdf4
+      chunks: {'time': 12}
+      concat_dim: 'time'
