@@ -36,6 +36,7 @@ dependencies:
   - siphon
   - gsw
   - pip:
+    - tqdm
     - graphviz
     - dask-kubernetes
     - git+https://github.com/xgcm/xgcm.git
